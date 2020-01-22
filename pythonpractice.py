@@ -41,7 +41,8 @@ def get_weekday(current_weekday, days_ahead):
     """
     return (current_weekday + days_ahead - 1) % 7 + 1
 
-   def get_birthday_weekday(current_weekday, current_day, birthday_day):
+
+def get_birthday_weekday(current_weekday, current_day, birthday_day):
     """ (int, int, int) -> int
 
     Return the day of the week it will be on birthday_day,
